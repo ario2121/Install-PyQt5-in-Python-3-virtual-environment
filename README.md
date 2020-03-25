@@ -9,7 +9,7 @@ In the code samples below, assume the working directory is always ~/pyqt.
 # Create a virtual environment
 
 First off, let’s create a virtualenv with python 3.4:
-```
+```bash
 virtualenv --python=python3.4 env
 ```
 Activate the virtualenv and check the python version to verify:
