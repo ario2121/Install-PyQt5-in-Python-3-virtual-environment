@@ -75,7 +75,7 @@ if __name__ == "__main__":
     window = QMainWindow()
     window.show()
     sys.exit(app.exec_())
-    ```
+ ```
+Running it with python pyqt.py should start the application that’s just one small window.
 
-
-
+Happy hacking!
