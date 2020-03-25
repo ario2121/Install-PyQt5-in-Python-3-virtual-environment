@@ -7,6 +7,6 @@ Fedora 21 comes with both python 2.7 and python 3.4, but the default version is 
 In the code samples below, assume the working directory is always ~/pyqt.
 
 # Create a virtual environment
-"""
+"""bash
 virtualenv --python=python3.4 env
 """
