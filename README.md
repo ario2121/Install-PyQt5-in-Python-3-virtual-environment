@@ -9,7 +9,7 @@ In the code samples below, assume the working directory is always ~/pyqt.
 # Create a virtual environment
 
 First off, let’s create a virtualenv with python 3.4:
-```bash
+```zsh
 virtualenv --python=python3.4 env
 ```
 Activate the virtualenv and check the python version to verify:
@@ -39,7 +39,7 @@ rm -r sip-4.16.5*
 
 Not sure why I had to do sudo make install. Verify sip is installed correctly by starting a python shell and typing in the following:
 
-```
+```python
 import sip
 sip.SIP_VERSION_STR
 ```
